@@ -1,0 +1,7 @@
+1. This query will count the number of rows in FirstTab where the id is not NULL in the SecondTab. Since there's only one row in SecondTab with id as NULL, and there's one row in FirstTab with a non-NULL id, the output will be 1.
+
+2. This query will count the number of rows in FirstTab where the id is not equal to 5 in the SecondTab. Since the id 5 is present in SecondTab, the row with id 5 in FirstTab will be excluded, and the output will be 2.
+
+3. This query will count the number of rows in FirstTab where the id is not present in SecondTab. Since there's only one row in SecondTab with id as NULL, and there's one row in FirstTab with a non-NULL id, the output will be 1.
+
+4. This query will count the number of rows in FirstTab where the id is NULL in SecondTab. Since there's only one row in SecondTab with a non-NULL id, and there's one row in FirstTab with a NULL id, the output will be 1.
